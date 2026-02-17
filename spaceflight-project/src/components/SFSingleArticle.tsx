@@ -1,6 +1,6 @@
 import Card from "react-bootstrap/Card";
 import { Row, Col } from "react-bootstrap";
-import type { Result } from "./types/ArticlesData";
+import type { Result } from "../types/ArticlesData";
 
 interface SFSingleArticleProps {
   article: Result;
