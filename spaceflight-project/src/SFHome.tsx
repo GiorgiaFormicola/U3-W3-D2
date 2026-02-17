@@ -30,8 +30,8 @@ const SFHome = () => {
   }, []);
 
   return (
-    <Container fluid className="pb-4">
-      <Row className="g-4 my-1">
+    <Container fluid="lg" className="pb-4">
+      <Row className="g-5 g-lg-4 my-1">
         {articlesData && (
           <>
             {articlesData.results.map((article) => (
