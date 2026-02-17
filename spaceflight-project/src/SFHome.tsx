@@ -30,17 +30,19 @@ const SFHome = () => {
   }, []);
 
   return (
-    <Container fluid="lg" className="pb-4">
-      <Row className="g-5 g-lg-4 my-1">
-        {articlesData && (
-          <>
-            {articlesData.results.map((article) => (
-              <SFSingleArticle article={article} key={article.id}></SFSingleArticle>
-            ))}
-          </>
-        )}
-      </Row>
-    </Container>
+    <>
+      <Container fluid="lg" className="pb-4">
+        <Row className="g-5 g-lg-4 my-1">
+          {articlesData && (
+            <>
+              {articlesData.results.map((article) => (
+                <SFSingleArticle article={article} key={article.id}></SFSingleArticle>
+              ))}
+            </>
+          )}
+        </Row>
+      </Container>
+    </>
   );
 };
 export default SFHome;
