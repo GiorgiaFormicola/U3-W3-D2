@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const SFNavbar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-light bg-opacity-25" data-bs-theme="dark" sticky="top" id="navbar">
+    <Navbar collapseOnSelect expand="lg" data-bs-theme="dark" sticky="top" id="navbar" style={{ backgroundColor: "#404567" }}>
       <Container fluid>
         <Navbar.Brand href="#home">
           <img src="https://www.iconpacks.net/icons/2/free-rocket-icon-3432-thumb.png" height="30" alt="" />
